@@ -1,0 +1,26 @@
+{
+  "name": "sourcegraph",
+  "version": "0.0.0",
+  "description": "Simple node api client for Sourcegraph.",
+  "main": "lib/sourcegraph.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha ./test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xizhao/node-sourcegraph.git"
+  },
+  "keywords": [
+    "sourcegraph",
+    "api"
+  ],
+  "author": "Kevin Wang <kwang1imsa@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xizhao/node-sourcegraph/issues"
+  },
+  "homepage": "https://github.com/xizhao/node-sourcegraph"
+}

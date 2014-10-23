@@ -1,3 +1,5 @@
+### WIP.
+
 Simple node api client for sourcegraph.  Unofficial, WIP.
 
 ```
