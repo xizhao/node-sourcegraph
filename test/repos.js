@@ -21,4 +21,13 @@ describe('repos', function(){
       })
     })
   })
+
+  describe('dependencies', function(){
+  	it('should properly fetch deps', function(err, doc) {
+  		sourcegraph.repos.dependencies('github.com/tangentlabs/django-oscar', '5f64fd5', function(err, docs) {
+  			assert.equal(docs.length, 10);
+      	done();
+  		});
+  	});
+  });
 })
