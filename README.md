@@ -1,4 +1,4 @@
-Simple node api client for sourcegraph.  Unofficial.
+Simple node api client for sourcegraph.  Unofficial, WIP.
 
 ```
 npm install sourcegraph
@@ -13,7 +13,7 @@ Jk, it's MIT.
 ```
 var sourcegraph = require('sourcegraph');
 sourcegraph.repos.get('github.com/learnboost/mongoose', function(err, doc) {
-	if(err) throw errl
+	if(err) throw err;
 	console.log(doc);
 });
 ```
