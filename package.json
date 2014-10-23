@@ -1,5 +1,5 @@
 {
-  "name": "sourcegraph",
+  "name": "node-sourcegraph",
   "version": "0.0.0",
   "description": "Simple node api client for Sourcegraph.",
   "main": "lib/sourcegraph.js",

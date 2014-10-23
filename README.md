@@ -3,7 +3,7 @@
 Simple node api client for sourcegraph.  Unofficial, WIP.
 
 ```
-npm install sourcegraph
+npm install node-sourcegraph
 ```
 
 AGPL-Licensed.  
